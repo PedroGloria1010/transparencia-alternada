@@ -1,0 +1,18 @@
+*Part(bloco) 1
+local  ponteIndex = script.Parent
+while true do
+	ponteIndex.Transparency = 1
+		wait(1)
+	ponteIndex.Transparency = 0
+	wait(1)	
+end
+
+
+*Part(bloco) 2
+local  ponteIndex = script.Parent
+while true do
+	ponteIndex.Transparency = 0
+		wait(1)
+	ponteIndex.Transparency = 1
+	wait(1)	
+end
